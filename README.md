@@ -7,6 +7,6 @@ Jamur Agaricus merupakan genus jamur yang umumnya dapat dikonsumsi dan banyak di
 Oleh karena itu, diperlukan sistem klasifikasi otomatis berbasis pengolahan citra digital. Projek ini menggunakan Gray Level Co-occurrence Matrix (GLCM) sebagai metode ekstraksi fitur tekstur citra untuk menghasilkan fitur seperti kontras, homogenitas, korelasi, dan energi. Fitur tersebut kemudian diklasifikasikan menggunakan tiga algoritma machine learning, yaitu K-Nearest Neighbor (KNN) yang bekerja berdasarkan kedekatan jarak antar data, Support Vector Machine (SVM) yang mencari hyperplane terbaik untuk memisahkan kelas, dan Random Forest yang menggabungkan banyak pohon keputusan untuk menghasilkan prediksi yang lebih akurat. Perbandingan ketiga metode ini bertujuan untuk menemukan pendekatan terbaik dalam mengklasifikasikan jamur Agaricus dan Amanita secara otomatis dan efisien.
 
 Dalam proyek ini, citra jamur akan diproses melalui serangkaian tahapan preprocessing untuk meningkatkan kualitas citra dan menonjolkan fitur-fitur penting. Tahap ini melibatkan tiga kali percobaan dengan metode sebagai berikut:
-- Percobaan 1: Resize (480 x 640) dan Grayscale
-- Percobaan 2: Resize (480 x 640), Grayscale, Sharpening, dan Smoothing
-- Percpbaan 3: Resize (480 x 640), Grayscale, Sharpening, Smoothing, Prewitt dan Thresholding
+- Percobaan 1: Resize (480 x 640), Grayscale, dan Sharpening
+- Percobaan 2: Resize (480 x 640), Grayscale, Sharpening, Smoothing, dan Mode 3x3
+- Percpbaan 3: Resize (480 x 640), Grayscale, Sharpening, Smoothing, Mode 3x3, Prewitt dan Thresholding
